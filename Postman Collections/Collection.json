@@ -47,7 +47,13 @@
 							},
 							"request": {
 								"method": "POST",
-								"header": [],
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{token}}",
+										"type": "text"
+									}
+								],
 								"body": {
 									"mode": "raw",
 									"raw": "{\r\n  \"username\": \"test_v@gmail.com\",\r\n  \"password\": \"Qwerty12345@\"\r\n}",
