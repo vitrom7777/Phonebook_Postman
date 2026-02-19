@@ -370,8 +370,14 @@
 									"listen": "prerequest",
 									"script": {
 										"id": "273586b1-e978-4b63-b3f8-08b094ce160d",
-										"exec": [],
-										"type": "text/javascript"
+										"exec": [
+											"pm.sendRequest({\r",
+											"    url:\r",
+											"})"
+										],
+										"type": "text/javascript",
+										"packages": {},
+										"requests": {}
 									}
 								}
 							],
